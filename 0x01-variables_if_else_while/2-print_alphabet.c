@@ -2,18 +2,19 @@
 #include <stdlib.h>
 
 /**
- * main - returns alphabetics
+ * main - Entry point
+ * Prints the alphabet in lowercase
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int ch = 'a';
+	char ch;
 
-	while (ch <= '2')
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		putchar(ch);
-		ch++;
 	}
 	putchar ('\n');
 	return (0);
