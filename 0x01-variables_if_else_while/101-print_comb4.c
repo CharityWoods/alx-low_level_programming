@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible different combinations of three digits
+ * main - Prints all possible different combinations of three digits
  *        in ascending order, separated by commas and spaces
  *
- * Return: 0 (Success)
+ * Return: 0 on success
  */
 
 int main(void)
@@ -22,12 +22,15 @@ int main(void)
 				putchar(digit3 + '0');
 				if (digit1 == 7 && digit2 == 8 && digit3 == 9)
 				{
+					putchar('\n');
+				}
+				else
+				{
 					putchar(',');
 					putchar(' ');
 				}
 			}
 		}
 	}
-	putchar('\n')
 	return (0);
 }
