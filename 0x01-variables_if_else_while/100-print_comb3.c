@@ -9,22 +9,18 @@
 
 int main(void)
 {
-	int ones = '0';
-	int tens = '0';
+	int num1, num2;
 
-	for (tens = '0'; tens <= '9'; tens++)/* prints tens digit*/
+	for (num1 = 0; num1 < 9; num1++)
 	{
-		for (ones = '0'; ones <= '9'; ones++)/* prints ones digit*/
+		for (num2 = num1 + 1; num2 <= 9; num2++)
 		{
-			if (!((ones == tens || (tens > ones)))/*eliminates repition*/
+			putchar(num1 + '0');
+			putchar(num2 + '0');
+			if (num1 != 8 || num2 != 9)
 			{
-				putchar(tens);
-				putchar(ones);
-				if (!(ones == '9' && tens == '8'))/*addes comma and space*/
-				{
-					putchar(',');
-					putchar(',');
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
