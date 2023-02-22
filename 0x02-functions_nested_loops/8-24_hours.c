@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * jack bauer - prints every minute of the day of jack bauer
- * starting from 00:00 to 23:59
+ * jack bauer - Check Horberton
+ * Desrciption: function prints every minute in one day
+ * Return: Nothing
  */
 void jack_bauer(void);
 {
