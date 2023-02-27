@@ -1,9 +1,10 @@
 #include "main.h"
 /**
  * puts_half - prints half of a string
- * @*str: half a string to print
+ * @str: half a string to print
  * Return: void
  */
+
 void puts_half(char *str)
 {
 	int j = 0;
